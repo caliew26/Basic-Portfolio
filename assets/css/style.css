@@ -1,0 +1,10 @@
+header {
+    color:white;
+    background: #4aaaa5;
+}
+
+nav {
+    float: right;
+    color: gray;
+    list-style-type: none;
+}
