@@ -5,7 +5,7 @@
 
 body {
     margin: 5px;
-    padding: 0;
+    padding: o;
     font-size: 18px;
     font-family: Arial, Helvetica, Helvetica Neue sans-serif;
     /*border: 2px solid black;*/
@@ -20,6 +20,7 @@ header {
     background-color: #ffffff;
     border-bottom: #000000;
     margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -61,6 +62,7 @@ h2 {
     margin: 196px;
     /*border: 2px solid black;*/
     background: #ffffff;
+    padding: 20px;
 }
 
 img {
@@ -76,6 +78,9 @@ h2 {
     border: 2px solid black;
     clear: both;
     background-color: #ffffff;
+    margin: 25px;
+    padding: 5px 25px;
+    line-height: 1;
 }
 
 .box-set {
