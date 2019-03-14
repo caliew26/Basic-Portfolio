@@ -7,11 +7,13 @@ body {
     margin: 5px;
     padding: 0;
     font-size: 18px;
+    font-family: Arial, Helvetica, Helvetica Neue sans-serif
     /*border: 2px solid black;*/
     max-width: 100%;
     background-image: url("background1.gif");
     /*background: whitesmoke;*/
     color: gray;
+    text-size: 
 }
 .header {
     color: #ffffff;
@@ -23,6 +25,7 @@ header {
     width: 300px;
     float: left;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 0;
     margin-left: 150px;
     margin-top: 5px;
@@ -45,6 +48,10 @@ li {
     display: inline;
 }
 
+h2 {
+    text-shadow: 1px 1px black;
+}
+
 .Main {
     clear:both;
     margin: 196px;
@@ -65,6 +72,7 @@ h2 {
     border: 2px solid black;
     clear: both;
     background-color: #ffffff;
+    font-weight: 
 }
 
 .box-set {
