@@ -8,12 +8,15 @@ body {
     padding: 0;
     font-size: 18px;
     /*border: 2px solid black;*/
-    width: 100%;;
+    max-width: 100%;
     background-image: url("background1.gif");
     /*background: whitesmoke;*/
     color: gray;
 }
-
+.header {
+    color: #ffffff;
+    font: #777777;
+}
 header {
     color:#cccccc;
     background: #4aaaa5;
@@ -61,6 +64,7 @@ h2 {
 .container {
     border: 2px solid black;
     clear: both;
+    background-color: #ffffff;
 }
 
 .box-set {
