@@ -57,34 +57,60 @@ img {
     float:left;
 }
 
+h2 {
+    clear: both;
+    color: #4aaaa5;
+}
 .container {
     border: 2px solid black;
     clear: both;
 }
 
 .box-set {
+    position: relative;
+    height: 690px;
+    background: white;
+    text-align: center;
+}
+
+.box {
     clear:both;
     border: 2px solid black;
+    background: #4aaaa5;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-bottom: 75px;
 }
 
-.box-set1 {
+.box-1 {
     border: 1px solid lightgray;
+    top: 15%;
+    left: 15%;
 }
 
-.box-set2 {
+.box-2 {
     border: 1px solid lightgray;
+    top: 15%;
+    right: 15%;
 }
 
-.box-set3 {
+.box-3 {
     border: 1px solid lightgray;
+    top: 45%;
+    left: 15%;
 }
 
-.box-set4 {
+.box-4 {
     border: 1px solid lightgray;
+    top: 45%;
+    right: 15%;
 }
 
-.box-set5 {
-    border: 1px solid lightgray;
+.box-5 {
+    border: 1 px solid lightgray;
+    top: 75%;
+    left: 15%;
 
 }
 
@@ -97,6 +123,11 @@ img {
     color:white;
     padding: 10px;
 }
+
+.sticky{
+    position: sticky;
+}
+
 footer {
     clear:both;
     border-top: 4px solid #4aaaa5;
