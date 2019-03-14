@@ -1,9 +1,19 @@
+* {
+    margin: 2px;
+}
 body {
     margin: 5px;
     padding: 0;
     font-size: 18px;
-    border: 2px solid red;
+    border: 2px solid black;
     width: 960px;
+    background: whitesmoke;
+}
+
+#image {
+    background-image: url(assets/images/background1.gif);
+    background-repeat: repeat;
+    z-index: -1;
 }
 
 header {
@@ -14,13 +24,14 @@ header {
     text-align: center;
     margin-bottom: 0;
     margin-left: 150px;
+    margin-top: 5px;
+    border-bottom: 2px solid gainsboro;
 }
 
 nav {
-    /*float: right;*/
     color: gray;
     list-style-type: none;
-    /*border: 2px solid yellow;*/
+    border: 2px solid yellow;
     width: 300px;
     float:right;
     list-style-type:none;
@@ -35,11 +46,13 @@ li {
 
 .Main {
     clear:both;
+    margin: 200px;
+    border: 2px solid black;
 }
 
 img {
     margin: 5px;
-    display:inline;
+    float:left;
 }
 
 footer {
@@ -47,6 +60,7 @@ footer {
     border-top: 4px solid #4aaaa5;
     text-align: center;
     background: rgb(143, 143, 143);
-    margin: 20px 0;
-    padding: 20px 0;
+    margin: 20px 2px 2px;
+    padding: 20px 0 5px;
+    color: white;
 }
