@@ -1,6 +1,14 @@
 * {
     margin: 2px;
+    z-index: -1;
 }
+
+#image {
+    background-image: url(assets/images/background1.gif);
+    width: 100%;
+    height: auto;
+}
+
 body {
     margin: 5px;
     padding: 0;
@@ -8,12 +16,6 @@ body {
     border: 2px solid black;
     width: 960px;
     background: whitesmoke;
-}
-
-#image {
-    background-image: url(assets/images/background1.gif);
-    background-repeat: repeat;
-    z-index: -1;
 }
 
 header {
@@ -31,7 +33,7 @@ header {
 nav {
     color: gray;
     list-style-type: none;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
     width: 300px;
     float:right;
     list-style-type:none;
@@ -53,6 +55,41 @@ li {
 img {
     margin: 5px;
     float:left;
+}
+
+.container {
+    border: 2px solid black;
+    clear: both;
+}
+
+.box-set {
+    clear:both;
+    border: 2px solid black;
+}
+
+.box-set1 {
+    border: 1px solid lightgray;
+}
+
+.box-set2 {
+    border: 1px solid lightgray;
+}
+
+.box-set3 {
+    border: 1px solid lightgray;
+}
+
+.box-set4 {
+    border: 1px solid lightgray;
+}
+
+.box-set5 {
+    border: 1px solid lightgray;
+
+}
+
+.response {
+    border: 1px solid lightgray;
 }
 
 footer {
