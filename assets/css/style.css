@@ -17,10 +17,9 @@ body {
 
 header {
     width: 100%;
-    background-color: #ffffff;
-    border-bottom: #000000;
-    margin: 0;
-    padding: 0;
+    background: #ffffff;
+    border-bottom: grey;
+    padding: 50px;
 }
 
 h1 {
@@ -45,8 +44,7 @@ nav {
     float:right;
     list-style-type:none;
     font-size: 11px;
-    margin-top: 24px;
-    margin-bottom: 0;
+    margin-top: -45px;
 }
 
 li {
@@ -62,7 +60,7 @@ h2 {
     margin: 196px;
     /*border: 2px solid black;*/
     background: #ffffff;
-    padding: 20px;
+    padding: 25px;
 }
 
 img {
