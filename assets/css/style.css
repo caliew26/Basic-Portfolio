@@ -101,48 +101,53 @@ h2 {
     line-height: 1;
 }
 
-/*.relative { 
-    position: relative; 
-    background: #cc0000; 
-    color: #ffffff; 
-    padding: 30px; 
-} */
-
 .box-set {
-    height: 1500px;
+    height: 960px;
     background: white;
     text-align: center;
-    float: left;
-    height: 1500px;
 }
 
 .box {
     border: 2px solid lightgray;
-    background: #4aaaa5;
-    color: white;
+    /*background: #4aaaa5;*/
+    color: red;
+    float: left;;
 }
 
-.box- Hangman {
+.box-1 {
     border: 1px solid lightgray;
-    padding: 20px;
-    height: 100px;
-    width: 100px;
+    margin: 20px 20px 20px 100px;
+    height: 200px;
+    width: 200px;
+    background-image: url(assets/images/portfolioplaceholder1.jpg);
 }
 
-.box-RPG {
+.box-2 {
     border: 1px solid lightgray;
+    margin: 20px 180px 20px 20px;
+    height: 200px;
+    width: 200px
 }
 
-.box-Trivia {
+.box-3 {
     border: 1px solid lightgray;
+    margin: 20px 20px 20px 100px;
+    height: 200px;
+    width: 200px
 }
 
-.box-Widget {
+.box-4 {
     border: 1px solid lightgray;
+    margin: 20px 180px 20px 20px;
+    height: 200px;
+    width: 200px
 }
 
-.box-Sheldon {
+.box-5 {
     border: 1 px solid lightgray;
+    margin: 20px 20px 20px 100px;
+    height: 200px;
+    width: 200px
 }
 
 .response {
