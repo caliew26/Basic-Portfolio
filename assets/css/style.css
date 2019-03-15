@@ -8,7 +8,7 @@ body {
     padding: o;
     font-size: 18px;
     font-family: Arial, Helvetica, Helvetica Neue sans-serif;
-    /*border: 2px solid black;*/
+    /*border-bottom: 2px solid black;*/
     max-width: 100%;
     background-image: url("background1.gif");
     /*background: whitesmoke;*/
@@ -18,7 +18,7 @@ body {
 header {
     width: 100%;
     background: #ffffff;
-    border-bottom: grey;
+    border-bottom: 2px solid black;
     padding: 50px;
 }
 
@@ -56,10 +56,27 @@ h2 {
 
 .Main {
     clear:both;
-    margin: 196px;
-    /*border: 2px solid black;*/
+    margin-top: 50px;
+    margin-right: 175px;
+    margin-left: 175px;
+    /*border-top: 2px solid black;*/
     background: #ffffff;
-    padding: 25px;
+    /*padding: 25px;*/
+}
+
+a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: greenyellow;
+    background: black;
+    transition: 0.5s;
 }
 
 img {
@@ -70,6 +87,9 @@ img {
 h2 {
     clear: both;
     color: #4aaaa5;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .container {
     border: 2px solid black;
@@ -82,7 +102,8 @@ h2 {
 
 .box-set {
     position: relative;
-    height: 690px;
+    height: 960px;
+    margin: 0 75px;
     background: white;
     text-align: center;
 }
@@ -100,13 +121,15 @@ h2 {
 .box-1 {
     border: 1px solid lightgray;
     top: 15%;
-    left: 15%;
+    float: left;
+    /*left: 15%;*/
 }
 
 .box-2 {
     border: 1px solid lightgray;
     top: 15%;
-    right: 15%;
+    float: right;
+    /*right: 15%;*/
 }
 
 .box-3 {
