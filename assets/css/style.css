@@ -117,37 +117,37 @@ h2 {
 .box-1 {
     border: 1px solid lightgray;
     margin: 20px 20px 20px 100px;
-    height: 200px;
-    width: 200px;
+    height: 200px ;
+    width: 200px ;
     background-image: url(assets/images/portfolioplaceholder1.jpg);
 }
 
 .box-2 {
     border: 1px solid lightgray;
     margin: 20px 180px 20px 20px;
-    height: 200px;
-    width: 200px
+    height: 200px ;
+    width: 200px ;
 }
 
 .box-3 {
     border: 1px solid lightgray;
     margin: 20px 20px 20px 100px;
-    height: 200px;
-    width: 200px
+    height: 200px ;
+    width: 200px ;
 }
 
 .box-4 {
     border: 1px solid lightgray;
     margin: 20px 180px 20px 20px;
-    height: 200px;
-    width: 200px
+    height: 200px ;
+    width: 200px ;
 }
 
 .box-5 {
     border: 1 px solid lightgray;
     margin: 20px 20px 20px 100px;
-    height: 200px;
-    width: 200px
+    height: 200px ;
+    width: 200px ;
 }
 
 .response {
