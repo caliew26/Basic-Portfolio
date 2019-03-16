@@ -1,8 +1,4 @@
-/** {
-    margin: 2px;
-    z-index: -1;
-}*/
-
+/*applies to all pages*/
 body {
     margin: 5px;
     padding: o;
@@ -15,6 +11,7 @@ body {
     color: gray; 
 }
 
+/*applies to all pages*/
 header {
     width: 100%;
     background: #ffffff;
@@ -22,6 +19,7 @@ header {
     padding: 50px;
 }
 
+/*applies to all pages*/
 h1 {
     color:#ffffff;
     background: #4aaaa5;
@@ -35,6 +33,7 @@ h1 {
     /*border-bottom: 2px solid #cccccc;*/
 }
 
+/*applies to all pages */
 nav {
     color: gray;
     list-style-type: none;
@@ -46,14 +45,17 @@ nav {
     margin-top: -45px;
 }
 
+/*applies to all pages*/
 li {
     display: inline;
 }
 
+/*applies to all pages*/
 h2 {
     text-shadow: 1px 1px black;
 }
 
+/*applies to index and contact pages only*/
 .Main {
     clear:both;
     margin-top: 50px;
@@ -65,21 +67,25 @@ h2 {
     padding: 25px;
 }
 
+/*applies to all pages*/
 a:hover {
     font-weight: bold;
     color: red;
 }
 
+/*applies to all pages*/
 a:visited {
     color: green;
 }
 
+/*applies to all pages*/
 a:active {
     color: greenyellow;
     background: black;
     transition: 0.5s;
 }
 
+/*applies to portfolio page only */
 .SecondMain {
     clear:both;
     margin-top: 50px;
@@ -95,11 +101,13 @@ a:active {
     max-width: 960px;
 }*/
 
+/*applies to index page only*/
 img {
     margin: 5px;
     float:left;
 }
 
+/*applies to all pages*/
 h2 {
     clear: both;
     color: #4aaaa5;
@@ -107,6 +115,8 @@ h2 {
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
+/*applies to index and contact pages only */
 .container {
     /*border: 2px solid black;*/
     clear: both;
@@ -117,6 +127,7 @@ h2 {
     line-height: 1;
 }
 
+/*applies to portfolio page only*/
 .box-set {
     background: white;
     text-align: center;
@@ -125,6 +136,7 @@ h2 {
     margin-left: 5px;
 }
 
+/*applies to portfolio page only*/
 .box {
     border: 2px solid lightgray;
     /*background: #4aaaa5;*/
@@ -132,11 +144,14 @@ h2 {
     float: left;
 }
 
+/*applies to portfolio page only*/
 /*
 .box-set p {
     background: yellow;
 }*/
 
+/*applies to portfolio page only*/
+/*Hangman Box*/
 .box-1 {
     /*border: 1px solid lightgray;*/
     /*margin: 20px 20px 20px 100px;*/
@@ -146,6 +161,8 @@ h2 {
     /*background-image: url(assets/images/portfolioplaceholder1.jpg);*/
 }
 
+/*applies to portfolio page only*/
+/*RPG Game*/
 .box-2 {
     /*border: 1px solid lightgray;*/
     /*margin: 20px 180px 20px 20px;*/
@@ -154,6 +171,8 @@ h2 {
     margin: 0;
 }
 
+/*applies to portfolio page only*/
+/*Trivia Game*/
 .box-3 {
     /*border: 1px solid lightgray;*/
     /*margin: 20px 20px 20px 100px;*/
@@ -161,6 +180,9 @@ h2 {
     width: 200px ;
 }
 
+/*applies to portfolio page only*/
+/*applies to portfolio page only*/
+/*Rutgers Info Widget*/
 .box-4 {
     /*border: 1px solid lightgray;*/
     /*margin: 20px 180px 20px 20px;*/
@@ -168,6 +190,8 @@ h2 {
     width: 200px ;
 }
 
+/*applies to portfolio page only*/
+/*Rock Papers Scissors Lizard Spock*/
 .box-5 {
     /*border: 1px solid lightgray;*/
     /*margin: 20px 20px 20px 100px;*/
@@ -175,11 +199,15 @@ h2 {
     width: 200px ;
 }
 
+/*applies to portfolio page only*/
+/*to put the image the same size as the "box"*/
 .boximage {
     max-width: 100%;
     max-height: 100%;
 }
 
+/*applies to portfolio page only*/
+/*to add text to the bottom of the image box*/
 .text-block {
         position: absolute;
         bottom: 20px;
@@ -190,17 +218,20 @@ h2 {
         padding-right: 20px;
 }
 
+/*Part of Contact page for name/email/message */
 .response {
     border: 1px solid  darkgray;
     color: lightgray;
 }
 
+/*button on the contact page*/
 .button {
     background: #4aaaa5;
     color:white;
     padding: 10px;
 }
 
+/*footer for all pages*/
 footer {
     position: sticky;
     clear:both;
