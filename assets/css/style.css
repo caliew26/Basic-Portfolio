@@ -59,6 +59,7 @@ h2 {
     margin-top: 50px;
     margin-right: 175px;
     margin-left: 175px;
+    margin-bottom: 50px;
     /*border-top: 2px solid black;*/
     background: #ffffff;
     padding: 25px;
@@ -77,6 +78,10 @@ a:active {
     color: greenyellow;
     background: black;
     transition: 0.5s;
+}
+
+.wrapper{
+    max-width: 960px;
 }
 
 img {
