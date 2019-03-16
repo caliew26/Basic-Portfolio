@@ -61,7 +61,7 @@ h2 {
     margin-left: 175px;
     /*border-top: 2px solid black;*/
     background: #ffffff;
-    /*padding: 25px;*/
+    padding: 25px;
 }
 
 a:hover {
@@ -95,9 +95,8 @@ h2 {
     /*border: 2px solid black;*/
     clear: both;
     background-color: #ffffff;
-    margin-bottom: 350px;
-    margin-left: 250px;
-    padding: 15px;
+    margin-bottom: 50px;
+    margin-left: 5px;
     line-height: 1;
 }
 
@@ -161,16 +160,13 @@ h2 {
     padding: 10px;
 }
 
-.sticky{
-    position: sticky;
-}
-
 footer {
+    position: sticky;
     clear:both;
     border-top: 4px solid #4aaaa5;
     text-align: center;
     background: rgb(143, 143, 143);
-    margin: 20px 0 2px 0;
     padding: 20px 0 5px;
     color: #cccccc;
+    width: 100%;
 }
