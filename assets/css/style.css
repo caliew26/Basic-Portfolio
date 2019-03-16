@@ -94,8 +94,19 @@ a:active {
     margin-bottom: 50px;
     /*border: 2px solid black;*/
     background: #ffffff;
-    padding: 50px auto;
+    padding: 50px;
     height: 800px;
+}
+
+/*portfolio page*/
+h3 {
+    clear: both;
+    color: #777777;
+    /*border-bottom: 2px solid lightgray;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: #4aaaa5;
+    margin: 5px;
 }
 /*.wrapper{
     max-width: 960px;
