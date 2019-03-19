@@ -45,6 +45,10 @@ nav {
     margin-top: -45px;
 }
 
+#activelinks {
+    text-decoration: none;
+}
+
 /*applies to all pages*/
 li {
     display: inline;
